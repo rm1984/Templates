@@ -94,13 +94,17 @@ form.form_login input {
   margin: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #333333;
+  background-color: #222222;
   color: #ffa500;
   font-family: inherit !important;
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+form.form_login input:focus {
+  background-color: #333333;
 }
 
 form.form_login button {
@@ -114,4 +118,14 @@ form.form_login button {
   font-family: inherit !important;
   font-size: 1em;
   font-weight: bold;
+}
+
+#sys {
+  position: fixed;
+  bottom: 15%;
+  right: 8%;
+  color: #ffa500;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 2px;
 }
