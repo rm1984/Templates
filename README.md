@@ -1,2 +1,2 @@
 # WebTemplates
-A collection of web templates I made for fun
+A collection of HTML/CSS/JS web templates I made for fun.
